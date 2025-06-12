@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Cargar el modelo
-modelo = tf.keras.models.load_model('C:\\Users\\Lenovo\\Desktop\\Proyecto1_Artificial\\modelo_c2f.h5')
+modelo = tf.keras.models.load_model('modelo_c2f.h5')
 print("Modelo cargado desde 'modelo_c2f.h5'")
 
 @app.route('/', methods=['GET'])
